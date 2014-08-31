@@ -1,6 +1,6 @@
 {
-    "name": "application.embodier",
-    "description": "the embodier application is used to create and manage other applications built on top of soul",
+    "name": "application.rest",
+    "description": "the rest application is used to create rest services out of various components",
     "version": "0.0.1",
     "main": "./lib/index",
     "private": true,
