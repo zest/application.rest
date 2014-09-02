@@ -1,8 +1,9 @@
 'use strict';
-var embodier = require('./injector')();
-describe('application.embodier', function () {
+var rest = require('../lib'),
+    expect = require('chai').expect;
+describe('application.rest', function () {
     // it should return a module
     it('it should return a module', function () {
-        expect(embodier).not.toBe(undefined);
+        expect(rest).not.to.equal(undefined);
     });
 });
